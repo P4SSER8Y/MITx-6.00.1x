@@ -1,4 +1,4 @@
-# 6.00 Problem Set 3
+﻿# 6.00 Problem Set 3
 # 
 # Hangman game
 #
@@ -96,6 +96,8 @@ def getAvailableLetters(lettersGuessed):
 
 def hangman(secretWord):
     '''
+
+    :rtype : object
     secretWord: string, the secret word to guess.
 
     Starts up an interactive game of Hangman.

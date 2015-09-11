@@ -1,2 +1,7 @@
 testbench.py
 *.sublime*
+.idea/*
+.idea
+*.sln
+*.pyproj
+.vs/*
