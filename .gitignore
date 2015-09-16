@@ -5,3 +5,5 @@ testbench.py
 *.sln
 *.pyproj
 .vs/*
+
+*.pyc
