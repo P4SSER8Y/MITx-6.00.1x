@@ -1,7 +1,5 @@
 __author__ = 'troy'
 
-
-
 def satisfiesF(L):
     """
     Assumes L is a list of strings

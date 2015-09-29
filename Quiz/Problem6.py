@@ -5,12 +5,10 @@ def count7(N):
     N: a non-negative integer
     '''
     # Your code here
-    if N == 0:
+    if not N:
         return 0
-    elif (N % 10 == 7):
-        return count7(N / 10) + 1
     else:
-        return count7(N / 10)
+        return count7(N / 10) + int(N % 10 == 7)
 
 if __name__ == "__main__":
     print 171, count7(171)
